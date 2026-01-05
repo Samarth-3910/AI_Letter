@@ -37,7 +37,6 @@ You can run the entire application (Backend + Frontend) with one command.
 ```bash
 python run_app.py
 ```
-*This launches the Backend on port 8000 and Frontend on port 3000.*
 
 ---
 
@@ -45,12 +44,9 @@ python run_app.py
 
 - **Frontend**: Next.js 16 (React), Tailwind CSS.
 - **Backend**: Python 3.11, FastAPI.
-- **AI Engine**: Google Gemini 2.5 Flash (Multimodal).
+- **AI Engine**: Google Gemini (Multimodal).
 
 ---
 
-## 📦 Deployment (Manual)
-
-- **Frontend**: Host on **Firebase Hosting**.
-- **Backend**: Host on **Render.com**.
-*(See `deployment_manual.md` for details)*
+## ❤️ Thank You
+Thank you for using **GhostWriter AI**! Happy writing. ✍️
