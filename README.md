@@ -12,9 +12,9 @@ Here is the journey your data takes when you use the app:
 ```mermaid
 graph TD
     User((User))
-    Frontend[Frontend UI \n(Next.js)]
-    Backend[Backend API \n(FastAPI)]
-    AI[Gemini 2.5 AI \n(Google)]
+    Frontend["Frontend UI <br> (Next.js)"]
+    Backend["Backend API <br> (FastAPI)"]
+    AI["Gemini 2.5 AI <br> (Google)"]
 
     User -->|Type Prompt / Upload Sample| Frontend
     Frontend -->|Send Data (JSON)| Backend
