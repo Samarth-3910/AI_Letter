@@ -16,12 +16,12 @@ graph TD
     Backend["Backend API <br> (FastAPI)"]
     AI["Gemini 2.5 AI <br> (Google)"]
 
-    User -->|Type Prompt / Upload Sample| Frontend
-    Frontend -->|Send Data (JSON)| Backend
-    Backend -->|Construct Prompt Context| AI
-    AI -->|Generate Ghostwritten Text| Backend
-    Backend -->|Return Draft| Frontend
-    Frontend -->|Display Letter| User
+    User -- "Type Prompt / Upload Sample" --> Frontend
+    Frontend -- "Send Data (JSON)" --> Backend
+    Backend -- "Construct Prompt Context" --> AI
+    AI -- "Generate Ghostwritten Text" --> Backend
+    Backend -- "Return Draft" --> Frontend
+    Frontend -- "Display Letter" --> User
 ```
 
 **Text Workflow:**
